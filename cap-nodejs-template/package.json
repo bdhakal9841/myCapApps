@@ -1,0 +1,17 @@
+{
+  "name": "cap-nodejs-template",
+  "version": "1.0.0",
+  "description": "SAP CAP Node.js template for C_CPE_2409 exam preparation",
+  "scripts": {
+    "start": "cds run",
+    "build": "cds build --clean",
+    "watch": "cds watch"
+  },
+  "dependencies": {
+    "@sap/cds": "^6",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
